@@ -160,15 +160,32 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    width: 100%;
+  }
+}
 .top-nav {
   background: #F6F6F6;
   border-bottom: 2px dashed #F1F1F1;
+}
+@media (max-width: 500px) {
+  .top-nav {
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 h1 {
   font-size: 4rem;
   text-align: center;
   padding: 20px 0;
   color: #23293B;
+}
+@media (max-width: 500px) {
+  h1 {
+    padding: 10px 0;
+  }
 }
 nav {
   display: flex;
@@ -178,6 +195,11 @@ nav {
   margin: 0 auto;
   padding: 10px 0;
 }
+@media (max-width: 500px) {
+  nav {
+    width: 90%;
+  }
+}
 nav a {
   color: #454A59;
   text-decoration: none;
@@ -185,8 +207,8 @@ nav a {
   font-weight: 600;
 }
 footer {
-  color: #22283B;
-  background: #f4f4f4;
+  color: #81848E;
+  background: #F6F6F6;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
@@ -239,16 +261,6 @@ footer {
 .home .walk .walk-text .btn {
   background: #22283A;
   color: white;
-  border-radius: 5px;
-  width: 28%;
-  padding: 10px 0 8px;
-  font-size: 1.8rem;
-  font-weight: 600;
-  text-align: center;
-}
-.home .walk .walk-text .btn:hover {
-  background: white;
-  color: #22283A;
   border-radius: 5px;
   width: 28%;
   padding: 10px 0 8px;
