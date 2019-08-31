@@ -43,8 +43,9 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
+    .display(center);
+    // display: flex;
+    // justify-content: center;
 
     .walk-text {
       width: 50%;
@@ -58,6 +59,11 @@
       }
 
       .btn {
+        .button(white, @btn-bg-color);
+      }
+
+      .btn:hover {
+        .button(@btn-bg-color, white)
       }
     }
 
