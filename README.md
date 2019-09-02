@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites still use hard coded widths vs the fluid widths of responsive. They are generally designed for specific widths with less flexibility than fully responsive sites. So they may have 2 or 3 fixed widths, while a fully responsive site more likely has a full coverage of most widths.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+With mobile first, you start with the mobile design and build up using min-widths. With desktop first, you build down from the desktop page and use max-widths.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+When we use that font size it allows us to code specific font sizes using single rem units. So for instance if you wanted to make a heading 60 pixels you would be able to use 6rem. To get sizes such as 24 pixels you can use decimal notation such as 2.4rem. It creates a quick and easy way to get any font size without a lot of mathematical calculation.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing allows you to use nesting, mixins, variables etc throughout your CSS. It them compiles it all into a single CSS document. The advantages are that you can change a color or size in one location and have it filter down to all locations in the CSS. It's also easier to find errors by going through smaller documents to get the changes needed
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I love preprocessing, particularly for variables and mixins that allow me to write less code. The hardest part for me is writing media queries because I'm used to writing them in one big block
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
